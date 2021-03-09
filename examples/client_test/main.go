@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-stomp/stomp"
+	"github.com/mobichord/stomp"
 )
 
 const defaultPort = ":61613"

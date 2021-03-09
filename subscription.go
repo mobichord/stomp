@@ -6,7 +6,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/go-stomp/stomp/frame"
+	"github.com/mobichord/stomp/frame"
 )
 
 const (

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/go-stomp/stomp/frame"
+	"github.com/mobichord/stomp/frame"
 	. "gopkg.in/check.v1"
 )
 

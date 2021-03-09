@@ -2,7 +2,8 @@ package stomp
 
 import (
 	"io"
-	"github.com/go-stomp/stomp/frame"
+
+	"github.com/mobichord/stomp/frame"
 )
 
 // A Message represents a message received from the STOMP server.

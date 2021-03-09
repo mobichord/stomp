@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-stomp/stomp/frame"
+	"github.com/mobichord/stomp/frame"
 )
 
 // Default time span to add to read/write heart-beat timeouts
@@ -222,6 +222,11 @@ func (c *Conn) Session() string {
 // this value will be a blank string.
 func (c *Conn) Server() string {
 	return c.server
+}
+
+// Closed return flag which indicates if connection is closed
+func (c *Conn) Closed() bool {
+	return c.closed
 }
 
 // readLoop is a goroutine that reads frames from the

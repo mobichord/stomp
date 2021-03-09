@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/go-stomp/stomp"
-	"github.com/go-stomp/stomp/frame"
+	"github.com/mobichord/stomp"
+	"github.com/mobichord/stomp/frame"
 	. "gopkg.in/check.v1"
 )
 

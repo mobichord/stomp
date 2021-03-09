@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-stomp/stomp/frame"
-	"github.com/go-stomp/stomp/testutil"
+	"github.com/mobichord/stomp/frame"
+	"github.com/mobichord/stomp/testutil"
 	. "gopkg.in/check.v1"
 )
 
